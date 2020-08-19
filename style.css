@@ -47,7 +47,7 @@ header{
     color: var(--color-rocket);
     opacity: 0.8;
     font-weight: normal;
-    
+        
 }
 
 #wrapper p {
@@ -84,11 +84,12 @@ header{
 }
 .card__image-container img {
     width: 100%;
-     
+
 }
 .card__content,
 .card__info {
     padding: 24px;
+
 }
 .card__info {
     display: grid;
@@ -105,9 +106,9 @@ header{
 #title h1 {
     color: var(--color-rocket);
     opacity: 0.8;
-    font-weight: normal;
+    font-weight: bold;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
+    padding-bottom: 20px;
 }
-
 
