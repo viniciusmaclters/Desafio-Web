@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap";
 
 :root {
-    --color-rocket: rgb(131, 64, 197);
+    --color-rocket: #121214;
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 body{
-    background: rgb(255, 255, 255);
+    background: #121214;
     font-family: 'Roboto', sans-serif;
     
 }
@@ -24,14 +24,14 @@ header{
 
 }
 .links a {
-    color: black ;
+    color:white;
     font-size: 18px;
     line-height: 30px;
     margin: 0 20px;
     text-decoration: none;
 }
 .links a:hover {
-    color: var(--color-rocket);
+    color:rgb(21, 255, 0); 
     transition: 200ms;
 }
 
@@ -79,7 +79,7 @@ header{
 }
 
 .card {
-    background-color: var(--color-rocket);
+    background-color: #202024;
     color: white;
 }
 .card__image-container img {
@@ -112,3 +112,42 @@ header{
     padding-bottom: 20px;
 }
 
+/*=====modal=====*/
+.modal-overlay {
+    background-color: rgb(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0; 
+    opacity: 0;
+    visibility: hidden;
+       
+}
+.modal {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+}
+.modal .modal-close {
+    color: black;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;   
+}
+.modal .modal-maximize {
+    color: black;
+    position: absolute;
+    right: 40px;
+    top: 8px;
+    cursor: pointer;
+}
+
+/*====MODAL ACTIVE====*/
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
