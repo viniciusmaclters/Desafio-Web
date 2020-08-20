@@ -38,13 +38,13 @@ header{
 #wrapper img {
     width: 200px;
     border-radius: 50%;
-    border: 2px solid var(--color-rocket);
+    border: 2px solid rgb(rgb(186, 9, 221));
     margin-top: 32px;
     
 }
 
 #wrapper h1 {
-    color: var(--color-rocket);
+    color: white;
     opacity: 0.8;
     font-weight: normal;
         
@@ -56,11 +56,13 @@ header{
     font-size: 18px;
     line-height: 24px;
     font-weight: bold;
+    color: white;
   
 }
 
 #wrapper li {
     margin: 20px;
+    color: white;
 }
 
 #links-footer a {
