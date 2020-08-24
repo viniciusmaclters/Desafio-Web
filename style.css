@@ -18,6 +18,7 @@ body{
 header{
     text-align: center;
     padding: 32px;
+    background-color: rgb(20, 20, 20) ;
 }
 .links {
     text-align: center;
@@ -81,8 +82,10 @@ header{
 }
 
 .card {
-    background-color: #202024;
+    background-color: #0a0a0a;
     color: white;
+    border-radius: 30px;
+
 }
 .card__image-container img {
     width: 100%;
