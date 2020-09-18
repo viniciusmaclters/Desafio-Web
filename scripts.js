@@ -12,11 +12,18 @@ for (let card of cards) {
 
 document.querySelector('.modal-close').addEventListener("click", function() {
     modalOverlay.classList.remove("active")
+    modalOverlay.classList.remove("open_in_full")
+   
+            
 })
 
 document.querySelector('.modal-maximize').addEventListener("click", function() {
-    ("maximize")
+    if (modal.classList.contains("open_in_full")){
+        modalOverlay.classList.remove("open_in_full")
+    } else
+    modalOverlay.classList.add("open_in_full")
 })
+
 
 
 
